@@ -7,7 +7,7 @@
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
  '''
 
-for n in range(1,100):
+for n in range(1,101):
     if(n % 3 == 0 and n % 5 == 0):
         print("Fizz Buzz")
     elif (n % 3 == 0):
